@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                 bat 'mvn test'  // <-- FIXED for Windows
             }
         }
         stage('Deploy') {
