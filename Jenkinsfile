@@ -2,10 +2,10 @@ pipeline {
     agent any
     stages {
         stage('Checkout') {
-            steps {
-                git 'https://github.com/NadiaAkter24/MavenWebApp.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/NadiaAkter24/MavenWebApp.git'
+    }
+}
         stage('Build') {
             steps {
                 sh 'mvn clean install'
