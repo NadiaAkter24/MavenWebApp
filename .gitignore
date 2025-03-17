@@ -1,0 +1,4 @@
+"target/*.war" 
+"target/maven-status/" 
+"target/maven-archiver/" 
+"target/*.log" 
