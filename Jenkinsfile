@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials' // Use the credentials ID you created in Jenkins
+        DOCKER_CREDENTIALS_ID = '90cb236b-203b-4886-89be-1f37bb3485d7' // Use the credentials ID you created in Jenkins
         DOCKER_IMAGE_NAME = 'nadiaakter2480/mavenwebapp' // Your Docker Hub repository name
     }
 
